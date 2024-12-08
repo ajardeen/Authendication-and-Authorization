@@ -21,24 +21,25 @@ A Node.js-based authentication system implementing Bearer token authentication u
 - Express.js
 - MongoDB (Mongoose)
 - JWT (jsonwebtoken)
-- bcryptjs
+- bcryptjs 
 - Postman (for API testing)
 
 ## Project Structure
 
-├── Config/
-│ └── ConfigMongoDB.js
-├── controllers/
-│ └── UserController.js
-├── middleware/
-│ └── UserMiddleware.js
-├── models/
-│ └── UserModel.js
-├── routes/
-│ └── userRoutes.js
-├── .env
-├── server.js
-└── README.md
+├── .env    
+├── README.md    
+├── server.js    
+├── Config/   
+│   └── ConfigMongoDB.js   
+├── controllers/    
+│   └── UserController.js    
+├── middleware/    
+│   └── UserMiddleware.js    
+├── models/    
+│   └── UserModel.js    
+└── routes/    
+    └── userRoutes.js    
+
 
 ## API Endpoints
 
